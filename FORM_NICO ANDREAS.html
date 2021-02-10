@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>
+    Form
+</title>
+</head>
+<body>
+    <form name=akun method="POST" action=biodata_NicoAndreas.html>
+    <table border=3 cellpadding="10" cellspacing="1" width="100%" height="100%">
+                    <tr>
+                        <td width="100%" colspan="2" align="center" heigth="48" bgcolor="blue">
+                        <font face="Microsoft San Serif" size="6" color="white">FORMULIR PENDAFTARAN</font>                    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=left valign=middle bgcolor=yellow>
+                                    Nama Lengkap 
+                        </td>
+                        <td align="left" bgcolor=yellow>
+                                      <input type=text size=40 maxlegth=30>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=left valign=middle bgcolor=yellow>
+                                       Password
+                        </td>
+                        <td align=left bgcolor=yellow>
+                                        <input type="password" size=40 maxlegth=30>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=left valign=middle bgcolor=yellow>
+                                        Jenis Kelamin
+                        </td>
+                        <td align=left bgcolor=yellow>
+                                        <input type=radio  name=jk value=pria>Laki-laki 
+                                        <input type=radio  name=jk value=wanita>Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=left valign=middle bgcolor=yellow>
+                                        Agama
+                        </td>
+                        <td align=left bgcolor=yellow>
+                            <select size="1" name="cboagama">
+                                <option selected value="Islam">Islam</option>
+                                <option value="Katolik">Katolik</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Buddha</option>
+                                <option value="Konghucu">Konghucu</option>
+                                <option value="Keyakinan">Belum punya</option>
+                                </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=left valign=middle bgcolor=yellow rowspan=2>
+                            Hobby
+                        </td>
+                        <td align=left bgcolor=yellow>
+                            <input type="checkbox" name="c1" value="ON">Olahraga
+                            <input type="checkbox" name="c2" value="ON">Nonton
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=left bgcolor=yellow>
+                            <input type="checkbox" name="c3" value="ON">Musik
+                            &nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" name="c4" value="ON">Belajar
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=left valign=middle bgcolor=yellow> 
+                            Komentar
+                        </td>
+                        <td align=left bgcolor=yellow>
+                            <textarea wrap rows="6" name="komen" cols="70" maxlength=1000></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" heigth="51" bgcolor="blue" colspan="2">
+                        <p align="center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            </body>
+            </html>
